@@ -1,0 +1,11 @@
+Conents for the project directory. 
+.
+├── Notes              # project's Python module, you'll import your code from here
+│   ├── __init__.py 
+│   ├── items.py       # project items definition file
+│   ├── middlewares.py # project middlewares file
+│   ├── pipelines.py   # project middlewares file
+│   ├── settings.py    # project settings file
+│   └── spiders
+│       └── __init__.py # a directory where you'll later put your spiders
+└── scrapy.cfg  # deploy configuration file
