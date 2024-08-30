@@ -26,5 +26,9 @@ class twitterSpider( scrapy.Spider):
         Path(filename).write_bytes(response.body)
         self.log(f"Saved file {filename}")
         
+        
+        
+        
+
     
     
